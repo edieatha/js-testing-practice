@@ -7,7 +7,11 @@ const analyze = (array) => {
   for (let i = 1; i < length; i += 1) {
     if (array[i] > max) {
       max = array[i];
-    } else {
+    }
+  }
+
+  for (let i = 1; i < length; i += 1) {
+    if (array[i] < min) {
       min = array[i];
     }
   }
