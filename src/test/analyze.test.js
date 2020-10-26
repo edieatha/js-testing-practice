@@ -1,4 +1,4 @@
-import analyze from '../analyze'
+import analyze from '../analyze';
 
 test('Array analyzed', () => {
   expect(analyze([1, 2, 1, 4])).toEqual({
