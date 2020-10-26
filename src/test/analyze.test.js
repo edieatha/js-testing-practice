@@ -1,4 +1,4 @@
-const analyze = require('./analyze');
+const analyze = require('../analyze');
 
 test('Array analyzed', () => {
   expect(analyze([1, 2, 1, 4])).toEqual({
