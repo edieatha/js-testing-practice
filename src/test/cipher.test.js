@@ -1,4 +1,4 @@
-const caesar = require('../cipher');
+import caesar from '../cipher'
 
 test('Cipher from z to a', () => {
   expect(caesar('abcdefghijklmnopqrstuvwxyz')).toEqual('bcdefghijklmnopqrstuvwxyza');

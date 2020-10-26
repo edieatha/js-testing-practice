@@ -36,9 +36,6 @@ To get a local copy up and running follow these simple example steps:
 8. Then `npm run test` from the terminal
 
 
-
-## See a live demo [Here](https://raw.githack.com/edieatha/to-do-list/to-do-list-feature/dist/index.html)
-
 ## Show your support
 Give a ⭐️ if you like this project!
 
