@@ -1,0 +1,37 @@
+{
+  "name": "js-testing-practice",
+  "version": "1.0.0",
+  "description": "Testing JavaScript Code with Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "webpack --watch",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edieatha/js-testing-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edieatha/js-testing-practice/issues"
+  },
+  "homepage": "https://github.com/edieatha/js-testing-practice#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "jest": "^26.6.1",
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-csstree-validator": "^1.8.0",
+    "stylelint-scss": "^3.17.2",
+    "webpack": "^5.2.0",
+    "webpack-cli": "^4.1.0"
+  }
+}
