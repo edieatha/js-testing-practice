@@ -16,7 +16,7 @@ test('divide 2 / 0', () => {
   expect(calculator(2, 0).divide()).toBe('Error divide by zero');
 });
 
-test('5 - \'5\' = Error', () => {
+test('add two string', () => {
   expect(() => {
     calculator('a', 'b').add();
   }).toThrow('You must provide a number.');
